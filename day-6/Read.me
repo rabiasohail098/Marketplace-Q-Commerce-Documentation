@@ -1,76 +1,154 @@
-Day-6 Task
+Project Journey: Building and Deploying AS Foods Marketplace
 
-Project Journey: Building and Deploying FoodTuck Marketplace
-Prepared By: Rabia Sohail
+Prepared By: Rabia (Development Team)
+
 Date: January 22, 2025
+
 Introduction
-This document summarizes the entire journey of building and deploying the FoodTuck
-marketplace. The project started with planning and design, progressed through development and
-testing, and concluded with deployment to a live staging environment on Vercel.
+
+This document summarizes the entire journey of building and deploying the AS Foods marketplace. The project started with planning and design, progressed through development and testing, and concluded with deployment to a live staging environment on Vercel.
+
 Project Journey
+
 Day 1: Project Planning and Setup
- Tasks Completed:
-o Defined project objectives and key features, such as product listing, cart
-functionality, and user profiles.
-o Set up the project environment using Next.js and connected it to Sanity CMS for
-dynamic content management.
-o Organized the project folder structure with directories like src/, public/, and
-components/.
- Tools Used: Visual Studio Code, GitHub, Sanity CMS.
+
+Tasks Completed:
+
+Defined project objectives and key features, such as product listing, cart functionality, and user profiles.
+
+Set up the project environment using Next.js and connected it to Sanity CMS for dynamic content management.
+
+Organized the project folder structure with directories like src/, public/, and components/.
+
+Tools Used: Visual Studio Code, GitHub, Sanity CMS.
+
 Day 2: Backend Integration
- Tasks Completed:
-o Integrated APIs to fetch data for products, categories, and user profiles.
-o Designed data schemas in Sanity CMS for managing dynamic content.
-o Implemented error handling for API calls using try-catch blocks.
- Challenges Faced:
-o Initial issues with API authentication resolved by updating tokens.
+
+Tasks Completed:
+
+Integrated APIs to fetch data for products, categories, and user profiles.
+
+Designed data schemas in Sanity CMS for managing dynamic content.
+
+Implemented error handling for API calls using try-catch blocks.
+
+API Details:
+
+GET Requests:
+
+Fetching product data: /api/products
+
+Fetching categories: /api/categories
+
+Fetching user profiles: /api/users
+
+POST Requests:
+
+Submitting user feedback: /api/feedback
+
+Adding items to the cart: /api/cart
+
+Challenges Faced:
+
+Initial issues with API authentication resolved by updating tokens.
+
 Day 3: Building Core Features
- Tasks Completed:
-o Created reusable components for the product listing, search bar, and filter panel.
-o Designed dynamic routing for individual product detail pages.
-o Implemented state management using React Context API.
- Best Practices Followed: Modular component design and reusable logic.
+
+Tasks Completed:
+
+Created reusable components for the product listing, search bar, and filter panel.
+
+Designed dynamic routing for individual product detail pages.
+
+Implemented state management using React Context API.
+
+Best Practices Followed: Modular component design and reusable logic.
+
 Day 4: Dynamic Frontend Development
- Tasks Completed:
-o Built responsive UI components, ensuring compatibility across devices.
-o Enhanced user experience with features like pagination and a wishlist.
-o Tested components using mock data to ensure proper functionality.
- Performance Optimization: Lazy-loaded images and reduced unused CSS.
+
+Tasks Completed:
+
+Built responsive UI components, ensuring compatibility across devices.
+
+Enhanced user experience with features like pagination and a wishlist.
+
+Tested components using mock data to ensure proper functionality.
+
+Performance Optimization: Lazy-loaded images and reduced unused CSS.
+
 Day 5: Testing and Refinement
- Tasks Completed:
-o Conducted functional, performance, and security testing.
-o Used Lighthouse and GTmetrix for performance analysis.
-o Fixed issues related to responsiveness and API error handling.
- Results:
-o Improved load time to under 2 seconds.
-o Resolved search bar issue for irrelevant queries.
+
+Tasks Completed:
+
+Conducted functional, performance, and security testing.
+
+Used Lighthouse and GTmetrix for performance analysis.
+
+Fixed issues related to responsiveness and API error handling.
+
+API Testing:
+
+Verified GET requests for products and categories return correct data.
+
+Tested POST requests to ensure data is correctly saved (e.g., adding to the cart).
+
+Checked error handling by simulating failed API calls.
+
+Results:
+
+Improved load time to under 2 seconds.
+
+Resolved search bar issue for irrelevant queries.
+
 Day 6: Deployment Preparation and Staging Setup
- Tasks Completed:
-o Selected Vercel as the hosting platform.
-o Connected the GitHub repository to Vercel for automated builds and
-deployments.
-o Configured environment variables securely within Vercel.
-o Deployed the application to a staging environment for final testing.
- Testing in Staging:
-o Verified workflows like product search, cart operations, and checkout.
-o Conducted cross-browser testing on Chrome, Firefox, and Microsoft Edge.
+
+Tasks Completed:
+
+Selected Vercel as the hosting platform.
+
+Connected the GitHub repository to Vercel for automated builds and deployments.
+
+Configured environment variables securely within Vercel.
+
+Deployed the application to a staging environment for final testing.
+
+Testing in Staging:
+
+Verified workflows like product search, cart operations, and checkout.
+
+Conducted cross-browser testing on Chrome, Firefox, and Safari.
+
 Deployment Process
-1. Hosting Platform:
-o Used Vercel for its simplicity and seamless Next.js integration.
-2. Repository Setup:
-o Organized project files into logical directories.
-3. Environment Variables:
-o Configured sensitive data like API keys in the Vercel dashboard.
-o Ensured security by excluding .env files from the repository.
-4. Deployment Steps:
-o Pushed the latest code to the main branch on GitHub.
-o Vercel automatically triggered a build and deployed the site to a live staging
-URL.
-5. Validation:
-o Tested the deployed site for functionality, responsiveness, and performance.
-o Confirmed that all features worked as intended in the staging environment.
+
+Hosting Platform:
+
+Used Vercel for its simplicity and seamless Next.js integration.
+
+Repository Setup:
+
+Organized project files into logical directories.
+
+Included a README.md file summarizing project structure and setup instructions.
+
+Environment Variables:
+
+Configured sensitive data like API keys in the Vercel dashboard.
+
+Ensured security by excluding .env files from the repository.
+
+Deployment Steps:
+
+Pushed the latest code to the main branch on GitHub.
+
+Vercel automatically triggered a build and deployed the site to a live staging URL.
+
+Validation:
+
+Tested the deployed site for functionality, responsiveness, and performance.
+
+Confirmed that all features worked as intended in the staging environment.
+
 Conclusion
-The FoodTuck marketplace project was successfully built and deployed, following best practices
-in development, testing, and deployment. The staging environment on Vercel provides a
-production-like setting for further testing and refinement. This journey demonstrated the
-importance of planning, and attention to detail in delivering a high-quality application.
+
+The AS Foods marketplace project was successfully built and deployed, following best practices in development, testing, and deployment. The staging environment on Vercel provides a production-like setting for further testing and refinement. This journey demonstrated the importance of planning, teamwork, and attention to detail in delivering a high-quality application.
+
